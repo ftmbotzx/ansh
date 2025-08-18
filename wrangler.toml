@@ -1,0 +1,4 @@
+name = "countdown-calculator-worker"
+main = "index.js"
+compatibility_date = "2025-08-18"
+type = "javascript"

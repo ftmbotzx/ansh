@@ -1,7 +1,7 @@
 export default {
   async fetch(request) {
 
-    // /cdn-cgi/trace se Cloudflare edge IP nikalte hain
+    // Fetch Cloudflare trace info to get edge IP
     const traceResp = await fetch("https://" + request.headers.get("host") + "/cdn-cgi/trace");
     const traceText = await traceResp.text();
 
@@ -13,11 +13,11 @@ export default {
       }
     }
 
-    // 👇 yaha apna custom text likho, jaise "Hello from Cloudflare IP: <ip>"
-    const output = Hello Bro 👋 — Current Cloudflare IP: ${edgeIp}
+    // Custom message with edge IP
+    const output = `Hello Bro 👋 — Current Cloudflare IP: ${edgeIp}`;
 
     return new Response(output, {
       headers: { "content-type": "text/plain" }
-    })
+    });
   }
 }

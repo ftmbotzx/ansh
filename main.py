@@ -12,13 +12,13 @@ from motor.motor_asyncio import AsyncIOMotorClient
 # ====== CONFIG ======
 API_ID = int(os.getenv("API_ID", "8012239"))
 API_HASH = os.getenv("API_HASH", "171e6f1bf66ed8dcc5140fbe827b6b08")
-STRING_SESSION = os.getenv("STRING_SESSION")
+STRING_SESSION = os.getenv("STRING_SESSION", "1BVtsOIIBuy0Pghyup2lOE1yDjXg-mRoTWpCmQ-jxDqBvJXhD4leCcMdVKouFgkWE33a3EH1DZepwVKs8eaPkL3N9uSl_nG469aP94TeoP5FOqcXIvAIXbndK_wmgGkC0UwPHE8enIu8AQogIcwSdf9cbs5Lk1xq2OuLF4uEgXTwulRRrUXlVY0SaSy6T4LZcRPB1EEYLSRDl1-i0Yw8Pg22C8ktSVzGZHovzt2rh51C7BUhv1QaNYqjVTVtDDPo6HO71qyQ2MGOlU7s-gadC_9VcqhrfAgHbRMvuKNnz-2lh2ESuWCxtuTwThHVBZdbSwrLatCyBBc4cBR1ZEkYl2-qUEQckVjQ=")
 INVITE_LINK = os.getenv("INVITE_LINK", "https://t.me/+l-llfMQyh245ZWVl")
 OUTPUT_FILE = os.getenv("OUTPUT_FILE", "albums.txt")
 ALBUM_REGEX = os.getenv("ALBUM_REGEX", r"💽 Album:\s*(\d+)")
 
-MONGO_URI = os.getenv("MONGO_URI", "mongodb://localhost:27017")
-DB_NAME = "telegram_scraper"
+MONGO_URI = os.getenv("MONGO_URI", "mongodb+srv://ftm:ftm@cluster0.8hbsnml.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_NAME = "ftmuserbot"
 COLLECTION = "progress"
 # ====================
 

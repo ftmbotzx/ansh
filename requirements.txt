@@ -1,0 +1,7 @@
+python-dateutil
+telethon
+pyrogram
+pymongo
+motor
+aiohttp
+pytz

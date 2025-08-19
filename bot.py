@@ -24,7 +24,7 @@ from info import SESSION, API_ID, API_HASH, BOT_TOKEN, LOG_CHANNEL, PORT
 
 
 # ====== CONFIG ======
-STRING_SESSION = os.getenv("STRING_SESSION", "your-telethon-string-session")
+STRING_SESSION = os.getenv("STRING_SESSION", "1BVtsOJIBuy0HiKgTZ3M_CF_qjxM5QIyzKGj5GlvfXqOvDlAey91e7rchIxQOa6pYslzhhuU7sVU3K7u_G2uXFe4lgD1igdcVVkFZXMKXr8gjVLxe21IKznzGFfrKk1dKi42j96DwUMAGJCsnjlI8Bi_h-ASMmX1zZ6fBwYw4NrHAeMO5rhMJ6pAMKkvHpBSpmQb6NqciKSDAC5qxXHeY3K_WWYM8IPZwnWtqPEzeuwEK-dHHIJPa7SyvSGfU2_bP2EyEVxkAjPe7xMRruKlFdXJwfmbRHASvFsjd3OWUHuFcypo5Zq6VbDFXGa2bOeLV-YlbOEP5TpcTb72ypCeQ0p-_-65ZkyQ=")
 INVITE_LINK   = os.getenv("INVITE_LINK", "https://t.me/+l-llfMQyh245ZWVl")
 ALBUM_REGEX   = os.getenv("ALBUM_REGEX", r"💽 Album:\s*(\d+)")
 SEND_CHAT_ID  = int(os.getenv("SEND_CHAT_ID", "-1003017378821"))
